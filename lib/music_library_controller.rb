@@ -18,7 +18,9 @@ class MusicLibraryController
     loop do
       puts "What would you like to do?"
       i = gets
-      if i == 'exit'
+      if i == 'list songs'
+        self.list_songs
+      elsif  i == 'exit'
         break
       end
     end
