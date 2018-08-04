@@ -20,6 +20,8 @@ class MusicLibraryController
       i = gets
       if i == 'list songs'
         self.list_songs
+      elsif i == 'list artists'
+        self.list_artists
       elsif  i == 'exit'
         break
       end
